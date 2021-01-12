@@ -26,6 +26,7 @@ import (
 
 	"github.com/google/uuid"
 	"github.com/pingcap/errors"
+
 	"github.com/pingcap/tiup/pkg/cluster/executor"
 	"github.com/pingcap/tiup/pkg/cluster/module"
 	system "github.com/pingcap/tiup/pkg/cluster/template/systemd"
@@ -48,6 +49,7 @@ const (
 	ComponentDMMaster         = "dm-master"
 	ComponentDMWorker         = "dm-worker"
 	ComponentPrometheus       = "prometheus"
+	ComponentVictoriaMetrics  = "victoriametrics"
 	ComponentPushwaygate      = "pushgateway"
 	ComponentBlackboxExporter = "blackbox_exporter"
 	ComponentNodeExporter     = "node_exporter"
